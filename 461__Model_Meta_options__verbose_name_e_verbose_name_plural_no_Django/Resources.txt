@@ -1,0 +1,7 @@
+https://docs.djangoproject.com/en/6.0/ref/models/options/
+
+Model Meta options
+
+https://www.youtube.com/watch?v=iIsLwz_vkzA
+
+Como traduzir ou atualizar traduções do Django Web Framework
