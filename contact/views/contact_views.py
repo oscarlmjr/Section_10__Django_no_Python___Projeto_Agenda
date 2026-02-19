@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.http import Http404
 from contact.models import Contact
 
+
 def index(request):
 	contacts = Contact.objects \
 		.filter(show=True)\
