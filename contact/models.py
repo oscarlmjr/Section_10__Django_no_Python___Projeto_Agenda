@@ -6,8 +6,6 @@ from django.contrib.auth.models import User
 # first_name (string),  last_name (string), phone (string)
 # email (email), created_date (date), description (text)
 # category (foreign key), show (boolean), picture (imagem)
-
-# Depois
 # owner (foreign key)
 
 
@@ -34,14 +32,12 @@ class Contact(models.Model):
 	category = models.ForeignKey(
 		Category, 
 		on_delete=models.SET_NULL, 
-		blank=True, 
-		null=True
+		blank=True, null=True
 		)
 	owner = models.ForeignKey(
 		User, 
 		on_delete=models.SET_NULL, 
-		blank=True, 
-		null=True
+		blank=True, null=True
 		)
 
 	def __str__(self) -> str:
