@@ -2,3 +2,4 @@ cz9T4e2L1uqieiX155Lx
 
 https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/
 https://www.youtube.com/watch?v=SnTBOhYFr28
+
